@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Admin</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="top-outline">
+                <div class="top">
+                    <ul>
+                        <ion-icon name="newspaper" style="color: black;"></ion-icon>
+                        <li><a href="#">Visit Blog</a></li>
+                        
+                        <ion-icon name="location" style="color: black;"></ion-icon>
+                        <li><a href="#">Find a Store</a></li>
+                        
+                        <ion-icon name="logo-whatsapp" style="color: black;"></ion-icon>
+                        <li><a href="#">WhatsApp us at +65 3163 5618</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bottom-outline">
+                <div class="bottom">
+                    <div class="bottomlogo">
+                        <div class="logo"><a href="#"><img src="https://logovtor.com/wp-content/uploads/2023/05/swee-lee-logo-vector-2023.png" /></a></div>
+                        <div class="search">
+                            <input type="text" placeholder="Search for products or brands">
+                            <button><ion-icon class="icon" name="search"></ion-icon></button>
+                        </div>
+                    </div>
+
+                    <div class="bottom-menu-grid">
+                        <div class="bottom-menu">
+                            <ul>
+                                <li><a href="#">Subscribe</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Admin</a></li>
+                                <li><a href="#"><ion-icon name="heart"></ion-icon></a></li>
+                                <li><a href="#"><ion-icon name="cart"></ion-icon></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-outline">
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">WHAT'S NEW</a></li>
+                        <li><a href="#">SPECIALS</a></li>
+                        <li><a href="#">BRANDS</a></li>
+                        <li><a href="#">DEPARTMENTS</a></li>
+                        <li><a href="#">EXPERIENCE SWEELEE</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="row-tittle">
+              <h1>THÊM MỚI LOẠI HÀNG HÓA</h1>
+                <div class="row-content">
+                    <form action="#" method="POST">
+                        <div class="form-d">
+                            Mã sản phẩm
+                            <input type="text" name="masp" disabled>
+                        </div>
+
+                        <div class="form-n">
+                            Tên sản phẩm
+                            <input type="text" name="tensp">
+                        </div>
+
+                        
+                        <div class="form-n">
+                            Price Sản phẩm
+                            <input type="text" name="price">
+                        </div>
+
+
+                        <div class="form-n" style="padding-bottom: 20px;">
+                            Img
+                            <input type="file" name="img">
+                        </div>
+
+                        Detail
+                        <div class="form-n">
+                            <textarea name="prodetail" rows="4" cols="50"></textarea>
+                        </div>
+                        <div class="form-d">
+                          <input type="submit" value="THÊM MỚI">
+                          <input type="submit" value="NHẬP LẠI">
+                         <a href="danhsach.html"> <input type="button" value="DANH SÁCH" ></a>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="footer-outline">
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>About Us</h3>
+                    <p>Bản quyền © 2024, Công Ty TNHH Âm Nhạc Swee Lee.
+                        Giấy chứng nhận đăng ký kinh doanh số 0313059273 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 19/12/2014. Địa chỉ đăng ký kinh doanh: 44, Đường Số 2, Khu Dân Cư Him Lam, Phường Tân Hưng, Quận 7, TP.HCM.</p>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: SweeLee@company.com</p>
+                    <p>Phone: +65 1234 5678</p>
+                </div>
+                <div class="footer-section social">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SweeLee. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
